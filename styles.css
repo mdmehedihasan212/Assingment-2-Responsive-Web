@@ -1,24 +1,28 @@
-body{
+.influencer-products-web{
     font-family: 'Roboto', sans-serif;
-    margin: 150px;
+    margin: 120px;
+
 }
-/*---first Article Styles---*/
+
+/*-----------------------
+first Article Styles
+-----------------------*/
 
 
 nav > ul{
     display: flex;
     list-style: none;
-    position: relative;
-    left: 500px;
     
 }
 nav > ul > li > a{
     text-decoration: none;
     padding: 15px;
+    position: relative;
+    left: 600px;
 
 }
-.first-section h1{
-    font-size: 60px;
+h1{
+    font-size: 40px;
 }
 .first-section{
     display: flex;
@@ -30,37 +34,115 @@ button{
     padding: 12px 40px;
     border-radius: 20px;
     font-size: 15px;
+    margin: 10px;
 }
 .blog-image{
     width: 100%;
+    position: relative;
+    left: 120px;
 
 }
 hr{
-    display: block;
-    height: 3em;
-    width: 60em;
-    background-image: url(./logos/Alibaba.svg);
-    background-image: url(./logos/Amazon.svg);
-    background-image: url(./logos/Daraz.pk\ Logo.svg);
-    background-image: url(./logos/Ebay.svg);
-    background-image: url(./logos/Rakuten.svg);
-    background-image: url(./logos/Target.svg);
-    background-image: url(./logos/Walmart.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    border: 1px solid gainsboro;
+    margin-top: 100px;
 
 }
 
-/*---Second Article Styles---*/
+/*------------------------
+Second Article Styles
+------------------------*/
 
+.second-heading{
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+}
 .second-section{
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
+}
+.products{
+    border: 1px solid gainsboro;
+    width: 300px;
+    height: 470px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    
 }
 .fa-star.filled{
     color: #E07C24;
 }
-.instrument-image img{
+.products-image img{
     width: 100%;
+
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 49em;
+    color: red;
+
+}
+
+/*--------------------- 
+Thirde Article Styles 
+---------------------*/
+.future-tecnology{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    
+
+}
+.tecnology-image img{
+    width: 70%;
+
+}
+
+/*--------------------
+Footer Styles Start
+--------------------*/
+
+footer{
+    
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+
+}
+footer a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+/*------------------
+Footer Styles End
+------------------*/
+
+/*----------------------
+Media Querys For Mobile
+----------------------*/
+@media only screen and (max-width:688) {
+    .influencer-products-web{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/*----------------------
+Media Querys For Computer
+----------------------*/
+@media only screen and (max-width:1020) {
+    .influencer-products-web{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
