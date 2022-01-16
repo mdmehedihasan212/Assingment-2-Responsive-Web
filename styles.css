@@ -1,0 +1,66 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 150px;
+}
+/*---first Article Styles---*/
+
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 500px;
+    
+}
+nav > ul > li > a{
+    text-decoration: none;
+    padding: 15px;
+
+}
+.first-section h1{
+    font-size: 60px;
+}
+.first-section{
+    display: flex;
+       
+}
+button{
+    background-color: #E03B8B;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.blog-image{
+    width: 100%;
+
+}
+hr{
+    display: block;
+    height: 3em;
+    width: 60em;
+    background-image: url(./logos/Alibaba.svg);
+    background-image: url(./logos/Amazon.svg);
+    background-image: url(./logos/Daraz.pk\ Logo.svg);
+    background-image: url(./logos/Ebay.svg);
+    background-image: url(./logos/Rakuten.svg);
+    background-image: url(./logos/Target.svg);
+    background-image: url(./logos/Walmart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*---Second Article Styles---*/
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.fa-star.filled{
+    color: #E07C24;
+}
+.instrument-image img{
+    width: 100%;
+}
